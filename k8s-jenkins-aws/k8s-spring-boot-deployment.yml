@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-            image: kawumatk/jhooq-docker-demo:jhooq-docker-demo
+            image: kawumatk/k8s-jen-project:latest
           ports:
             - containerPort: 8080
           env:
