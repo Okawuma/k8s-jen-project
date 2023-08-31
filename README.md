@@ -15,21 +15,21 @@
 ### create a private database subnet in az1
 ### create a private database subnet in az2
 ## On the other hand, create variables as follows;
-### - for the region and project_name.
-### - create variable for the public_subnet_az1_cidr
-### - create variable for the public_subnet_az2_cidr
-### - create variable for the private_app_subnet_az1_cidr
-### - create variable for the private_app_subnet_az2_cidr
-### - create variable for the private_db_subnet_az1_cidr
-### - create variable for the private_db_subnet_az2_cidr
+#### - for the region and project_name.
+#### - create variable for the public_subnet_az1_cidr
+#### - create variable for the public_subnet_az2_cidr
+#### - create variable for the private_app_subnet_az1_cidr
+#### - create variable for the private_app_subnet_az2_cidr
+#### - create variable for the private_db_subnet_az1_cidr
+#### - create variable for the private_db_subnet_az2_cidr
 ## Develop the output.tf file 
 ### (this allows us to export some values from this vpc, and we can reference them when we create other resources)
 ### The first output will export our region.
-### - export the project name
-### - export the vpc id as referenced in the main.tf file
-### - export the id of the public_subnet_az1
-### - export the id of the public_subnet_az2
-### - export the id of the private_app_subnet_az1
-### - export the id of the private_app_subnet_az2
-### - export the id of the private_db_subnet_az1
-### - export the id of the private_db_subnet_az2
+#### - export the project name
+#### - export the vpc id as referenced in the main.tf file
+#### - export the id of the public_subnet_az1
+#### - export the id of the public_subnet_az2
+#### - export the id of the private_app_subnet_az1
+#### - export the id of the private_app_subnet_az2
+#### - export the id of the private_db_subnet_az1
+#### - export the id of the private_db_subnet_az2
