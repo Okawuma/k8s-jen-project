@@ -5,15 +5,15 @@
 #### - create internet gateway and attach it to the vpc
 ### Inside the variables file
 ##### (use data source to get a list of all availability zones in prefered regions).
-### create public subnet in az1 (all AZs are indexed [0,1])
-### create public subnet in az2
-### create route table and add a public route
+### --> create public subnet in az1 (all AZs are indexed [0,1])
+### --> create public subnet in az2
+### --> create route table and add a public route
 ### associate public subnet az1 to the "public route table"
 ### associate public subnet az2 to the "public route table"
-### create a private application subnet in az1
-### create a private application subnet in az2
-### create a private database subnet in az1
-### create a private database subnet in az2
+### . create a private application subnet in az1
+### . create a private application subnet in az2
+### . create a private database subnet in az1
+### . create a private database subnet in az2
 ## On the other hand, create variables as follows;
 #### - for the region and project_name.
 #### - create variable for the public_subnet_az1_cidr
