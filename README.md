@@ -3,8 +3,8 @@
 ### Inside the main.tf file, create the following resources:
 #### - create the vpc.
 #### - create internet gateway and attach it to the vpc
-## Inside the variables file
-## use data source to get a list of all availability zones in prefered regions.
+### Inside the variables file
+##### (use data source to get a list of all availability zones in prefered regions).
 ### create public subnet in az1 (all AZs are indexed [0,1])
 ### create public subnet in az2
 ### create route table and add a public route
