@@ -38,8 +38,8 @@
 ### create a reference for the inter_gateway in the output file.
 ####  (review the out put code and save)
 # reference the created vpc module above in another project if necessary.
-### ** This will demonstrate the re-usability of terraform modules
-### ** The ease of application and replication that Iac i terraform gives
+### + This will demonstrate the re-usability of terraform modules
+###   * The ease of application and replication that Iac i terraform gives
 #### I created another folder called(appleSCH-website).
 #### The appleSCH-website project will store its terraform state file in an s3.
 ### - configure aws provider for the apple-sch-website project.
@@ -47,10 +47,10 @@
 #### - Log into the Amazon console and create an s3 bucket.
 #### - Enter the bucket name, key, region and profile in the backend.tf file.
 #### - Its possible to enable state locking using a dynamoDB. 
-. This prevents multiple team members from applying changes simultaneously, which could result in an inconsistent or corrupt state.
-. Reduce the risk of state corruption that could occur if multiple write operations happen concurrently.
-. Locking adds an extra layer of protection against unintended modifications, helping ensure that critical resources are not accidentally destroyed or altered.
-. Good for auditing changes and understanding sequence of events incase of troubleshooting.
++ This prevents multiple team members from applying changes simultaneously, which could result in an inconsistent or corrupt state.
++ Reduce the risk of state corruption that could occur if multiple write operations happen concurrently.
++ Locking adds an extra layer of protection against unintended modifications, helping ensure that critical resources are not accidentally destroyed or altered.
++ Good for auditing changes and understanding sequence of events incase of troubleshooting.
 #### - create vpc for the appleSCH-website project
 #### - reference the vpc module already created under the interview project folder
 #### - double period takes one up two dirs
