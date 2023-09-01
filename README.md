@@ -25,7 +25,7 @@
 #### - create variable for the private_db_subnet_az2_cidr
 ##### (review the variable file code and save)
 ## Develop the output.tf file 
-++ (this allows us to export some values from this vpc, and we can reference them when we create other resources)
+(this allows us to export some values from this vpc, and we can reference them when we create other resources)
 ### The first output will export our region.
 #### - export the project name
 #### - export the vpc id as referenced in the main.tf file
