@@ -4,16 +4,16 @@
 #### - create the vpc.
 #### - create internet gateway and attach it to the vpc
 ## Inside the variables file
-### use data source to get a list of all availability zones in prefered regions.
-### create public subnet in az1 (all AZs are indexed [0,1])
-### create public subnet in az2
-### create route table and add a public route
-### associate public subnet az1 to the "public route table"
-### associate public subnet az2 to the "public route table"
-### create a private application subnet in az1
-### create a private application subnet in az2
-### create a private database subnet in az1
-### create a private database subnet in az2
+### 1. use data source to get a list of all availability zones in prefered regions.
+### 2. create public subnet in az1 (all AZs are indexed [0,1])
+### 3. create public subnet in az2
+### 4. create route table and add a public route
+### 5. associate public subnet az1 to the "public route table"
+### 6. associate public subnet az2 to the "public route table"
+### 7. create a private application subnet in az1
+### 8. create a private application subnet in az2
+### 9. create a private database subnet in az1
+### 10. create a private database subnet in az2
 ####  (review the main.tf file code and save)
 ### On the other hand, create variables as follows;
 #### - for the region and project_name.
