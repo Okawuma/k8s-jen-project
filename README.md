@@ -4,7 +4,7 @@
 #### - create the vpc.
 #### - create internet gateway and attach it to the vpc
 ## Inside the variables file
-### 1. use data source to get a list of all availability zones in prefered regions.
+1. use data source to get a list of all availability zones in prefered regions.
 ### 2. create public subnet in az1 (all AZs are indexed [0,1])
 ### 3. create public subnet in az2
 ### 4. create route table and add a public route
