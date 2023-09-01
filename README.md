@@ -39,8 +39,8 @@
        (output "aws_internet_gateway" { value = aws_internet_gateway.igw-interview })
               * no id is needed.
 # reference the created vpc module above in another project if necessary.
-  *  This will demonstrate the re-usability of terraform modules
-        * The ease of application and replication that Iac i terraform gives
+*  This will demonstrate the re-usability of terraform modules
+* The ease of application and replication that Iac i terraform gives
 #### I created another folder called(appleSCH-website).
 #### The appleSCH-website project will store its terraform state file in an s3.
 ### - configure aws provider for the apple-sch-website project.
