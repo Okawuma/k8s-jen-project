@@ -15,7 +15,7 @@
 ### create a private database subnet in az1
 ### create a private database subnet in az2
 ####  (review the main.tf file code and save)
-## On the other hand, create variables as follows;
+### On the other hand, create variables as follows;
 #### - for the region and project_name.
 #### - create variable for the public_subnet_az1_cidr
 #### - create variable for the public_subnet_az2_cidr
@@ -23,7 +23,7 @@
 #### - create variable for the private_app_subnet_az2_cidr
 #### - create variable for the private_db_subnet_az1_cidr
 #### - create variable for the private_db_subnet_az2_cidr
-####  (review the variable file code and save)
+##### (review the variable file code and save)
 ## Develop the output.tf file 
 ### (this allows us to export some values from this vpc, and we can reference them when we create other resources)
 ### The first output will export our region.
