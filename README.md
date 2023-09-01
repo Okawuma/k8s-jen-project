@@ -1,10 +1,10 @@
 # Using Terraform to stand up a 3 Tier AWS Virtual Private Cloud (VPC).
-## create the vpc main.tf file and the varaibles.tf side by side
+### create the vpc main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
 #### - create the vpc.
 #### - create internet gateway and attach it to the vpc
 ## Inside the variables file
-## use data source to get a list of all availability zones in prefered regions.
+### use data source to get a list of all availability zones in prefered regions.
 ### create public subnet in az1 (all AZs are indexed [0,1])
 ### create public subnet in az2
 ### create route table and add a public route
@@ -36,10 +36,10 @@
 #### - export the id of the private_db_subnet_az1
 #### - export the id of the private_db_subnet_az2
 ### create a reference for the inter_gateway in the output file.
-        * review the out put code and save)
+       (review the out put code and save)
 # reference the created vpc module above in another project if necessary.
   *  This will demonstrate the re-usability of terraform modules
-        *The ease of application and replication that Iac i terraform gives
+        * The ease of application and replication that Iac i terraform gives
 #### I created another folder called(appleSCH-website).
 #### The appleSCH-website project will store its terraform state file in an s3.
 ### - configure aws provider for the apple-sch-website project.
