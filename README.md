@@ -25,7 +25,7 @@
 #### - create variable for the private_db_subnet_az2_cidr
 ##### (review the variable file code and save)
 ## Develop the output.tf file 
-### (this allows us to export some values from this vpc, and we can reference them when we create other resources)
+++ (this allows us to export some values from this vpc, and we can reference them when we create other resources)
 ### The first output will export our region.
 #### - export the project name
 #### - export the vpc id as referenced in the main.tf file
@@ -35,8 +35,11 @@
 #### - export the id of the private_app_subnet_az2
 #### - export the id of the private_db_subnet_az1
 #### - export the id of the private_db_subnet_az2
-### create a reference for the inter_gateway in the output file.
-       (review the out put code and save)
+### create a reference for the internet_gateway in the output file.
+       (output "aws_internet_gateway" {
+  value = aws_internet_gateway.igw-interview
+})
+       * no id is needed.
 # reference the created vpc module above in another project if necessary.
   *  This will demonstrate the re-usability of terraform modules
         * The ease of application and replication that Iac i terraform gives
